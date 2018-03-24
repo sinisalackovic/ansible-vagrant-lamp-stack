@@ -4,9 +4,9 @@
 VirtualBox https://www.virtualbox.org/wiki/Downloads (based on your operating platform choose VM package) <br>
 Vagrant https://www.vagrantup.com/downloads.html (based on your operating platform choose Vagrant)
 
+# Run Ansible playbook
 
-
-
+    ansible-playbook 'ansible_playbook_name'.yml
 
 # Note
 1. If you have a problem with Kernel, check this article:
