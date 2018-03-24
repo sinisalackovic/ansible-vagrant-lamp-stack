@@ -30,3 +30,20 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
           address 192.168.0.100
           netmask 255.255.255.0
           gateway 10.0.0.1
+
+3. Generate a ssh key
+    3.1 Generate the ssh key on the Host maschine (OSx):
+        
+        ssh-keygen -t rsa ('/Users/username/.ssh/id_rsa.pub')
+        
+    3.2 Install an openssh-client and openssh-server packages on your Virtual Machine to accept ssh connection:
+        
+        openssh-cline and openssh-server
+    
+    3.3 Copy the ssh generated key to your Virtual Machine: 
+    
+        ssh-copy-id root@192.168.0.100
+
+    4.3 Check you ssh connection:
+        
+        ssh root.192.168.0.42
