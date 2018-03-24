@@ -30,8 +30,8 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
           address 192.168.0.100
           netmask 255.255.255.0
           gateway 192.168.0.1
-          dns-servers 8.8.8.8
-          dns-servers 8.8.4.4
+          dns-nameservers 8.8.8.8
+          dns-nameservers 8.8.4.4
 
 3. Generate a ssh key
     3.1 Generate the ssh key on the Host maschine (OSx):
