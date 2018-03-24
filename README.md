@@ -14,6 +14,7 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
   https://apple.stackexchange.com/questions/300510/virtualbox-5-1-8-installation-didnt-install-kernel-extensions-how-do-i-fix-thi
 
 2. To setup a static address to your VM machine
+ 
   2.1 Check you Ethernet interface identity (in my case it's "enp0s3"): 
       
       ifconfig -a | grep eth
