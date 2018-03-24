@@ -44,6 +44,6 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
     
         ssh-copy-id root@192.168.0.100
 
-    4.3 Check you ssh connection:
+    4.3 Check your ssh connection:
         
-        ssh root.192.168.0.42
+        ssh root@192.168.0.42
