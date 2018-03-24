@@ -46,4 +46,4 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
 
     4.3 Check your ssh connection:
         
-        ssh root@192.168.0.42
+        ssh root@192.168.0.100
