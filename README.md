@@ -20,7 +20,7 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
       	ifconfig -a | grep eth OR
       	ifconfig -a | grep enp
 
-  	2.2 Edit Ethernet interface file and replace a whole content: 
+  	2.2 Edit an Ethernet interface file and replace a whole content: 
       
       	sudo gedit /etc/network/interfaces
 
