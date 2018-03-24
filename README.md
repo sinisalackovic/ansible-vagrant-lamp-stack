@@ -27,6 +27,6 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
       	auto lo enp0s3
       	iface lo inet loopback
       	iface enp0s3 inet static
-          address 10.0.0.100
+          address 192.168.0.100
           netmask 255.255.255.0
           gateway 10.0.0.1
