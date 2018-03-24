@@ -38,7 +38,7 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
         
     3.2 Install an openssh-client and openssh-server packages on your Virtual Machine to accept ssh connection:
         
-        openssh-client and openssh-server
+        openssh-client AND openssh-server
     
     3.3 Copy the ssh generated key to your Virtual Machine: 
     
