@@ -15,18 +15,18 @@ Vagrant https://www.vagrantup.com/downloads.html (based on your operating platfo
 
 2. To setup a static address to your VM machine
  
-  2.1 Check you Ethernet interface identity (in my case it's "enp0s3"): 
+    2.1 Check you Ethernet interface identity (in my case it's "enp0s3"): 
       
-      ifconfig -a | grep eth
-      ifconfig -a | grep enp
+      	ifconfig -a | grep eth
+      	ifconfig -a | grep enp
 
-  2.2 Edit Ethernet interface file and replace a whole content: 
+  	2.2 Edit Ethernet interface file and replace a whole content: 
       
-      sudo gedit /etc/network/interfaces
+      	sudo gedit /etc/network/interfaces
 
-      auto lo enp0s3
-      iface lo inet loopback
-      iface enp0s3 inet static
+      	auto lo enp0s3
+      	iface lo inet loopback
+      	iface enp0s3 inet static
           address 10.0.0.100
           netmask 255.255.255.0
           gateway 10.0.0.1
